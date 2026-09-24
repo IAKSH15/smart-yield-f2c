@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+ENV/
+
+# Database & Uploads
+*.db
+*.sqlite3
+uploads/*
+!uploads/sample_tomatoes.jpg
+
+# Build outputs
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Logs and system artifacts
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+handoff_extracted.txt
