@@ -1,3 +1,11 @@
+# Private handoff documents & internal notes
+*.docx
+*.doc
+*.pdf
+handoff_extracted.txt
+handoff_text.txt
+*.log
+
 # Dependencies
 node_modules/
 __pycache__/
@@ -8,21 +16,25 @@ __pycache__/
 venv/
 ENV/
 
-# Database & Uploads
+# Database & Runtime Uploads
 *.db
 *.sqlite3
 uploads/*
 !uploads/sample_tomatoes.jpg
 
-# Build outputs
+# Build outputs & Temp
 frontend/dist/
 frontend/dist-ssr/
 *.local
 
-# Logs and system artifacts
-*.log
+# IDE & OS Files
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
-handoff_extracted.txt
+
+# Redundant frontend templates
+frontend/.oxlintrc.json
+frontend/README.md
+frontend/src/App.css
+frontend/src/assets/
