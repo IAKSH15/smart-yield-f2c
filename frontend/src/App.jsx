@@ -299,7 +299,7 @@ export default function App() {
         <div className="flow-strip">
           <div className="flow-title">
             <span>End-to-End Autonomous Marketplace Sequence</span>
-            <span style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--farmer-green)' }}>PS ID #26033 • Team SPARXGENZ</span>
+            <span style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--farmer-green)' }}>PS ID #26033 • Team SPARKXGENZ</span>
           </div>
           <div className="step-flow-container">
             <div className={`step-flow-item ${activeTab === 'farmer' ? 'active' : 'completed'}`}>
@@ -901,7 +901,7 @@ export default function App() {
 
       {/* Footer */}
       <footer style={{ background: 'white', borderTop: '1px solid var(--border-subtle)', padding: '16px 24px', textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-        Smart-Yield F2C Prototype • Problem Statement 26033 • Theme: Agriculture, FoodTech & Rural Development • Team SPARXGENZ (Team ID: 167877)
+        Smart-Yield F2C Prototype • Problem Statement 26033 • Theme: Agriculture, FoodTech & Rural Development • Team SPARKXGENZ (Team ID: 167877)
       </footer>
     </div>
   );
